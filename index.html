@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Meter System</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="mobile-container">
+    
+    <div id="login-screen" class="screen active">
+      <div class="watermark-bg">
+        <img src="image/Logo.png" alt="C2S Background Logo" class="bg-logo-img" />
+      </div>
+
+      <h1 class="main-title">SMART ENERGY METER</h1>
+
+      <form id="login-form" class="form-container">
+        <div class="input-group">
+          <label for="utility-id">UTILITY CONTROL ID</label>
+          <input 
+            type="text" 
+            id="utility-id" 
+            placeholder="Enter Utility Control ID" 
+            required 
+            autocomplete="off" 
+          />
+        </div>
+
+        <div class="divider">OR</div>
+
+        <div class="input-group">
+          <label for="password">PASSWORD</label>
+          <input 
+            type="password" 
+            id="password" 
+            placeholder="Enter Password" 
+            required 
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">LOGIN</button>
+        <p id="error-msg" class="error-text"></p>
+      </form>
+
+      <footer class="footer">
+        <div class="footer-logo-container">
+          <img src="image/Logo.png" alt="C2S NIT Manipur Logo" class="footer-logo-img" />
+        </div>
+        <p class="footer-text">powered by C2S NIT Manipur</p>
+      </footer>
+    </div>
+
+    <div id="dashboard-screen" class="screen">
+      <div class="watermark-bg">
+        <img src="image/Logo.png" alt="C2S Background Logo" class="bg-logo-img" />
+      </div>
+
+      <div class="dashboard-header">
+        <h2>SMART METER SYSTEM</h2>
+      </div>
+
+      <div class="grid-container">
+        <div class="dashboard-card card-blue" onclick="handleCardClick('Usage Analytics')">
+          <div class="card-inner">
+            <i class="fa-solid fa-chart-line card-icon"></i>
+          </div>
+          <div class="card-label">Usage Analytics</div>
+        </div>
+
+        <div class="dashboard-card card-green" onclick="handleCardClick('Customer Details')">
+          <div class="card-inner">
+            <i class="fa-solid fa-user card-icon"></i>
+          </div>
+          <div class="card-label">Customer Details</div>
+        </div>
+
+        <div class="dashboard-card card-teal" onclick="handleCardClick('Control')">
+          <div class="card-inner">
+            <i class="fa-solid fa-sliders card-icon"></i>
+          </div>
+          <div class="card-label">Control</div>
+        </div>
+
+        <div class="dashboard-card card-orange" onclick="handleCardClick('Alerts & Notifications')">
+          <div class="card-inner">
+            <i class="fa-solid fa-bell card-icon"></i>
+          </div>
+          <div class="card-label">Alerts & Notifications</div>
+        </div>
+      </div>
+
+      <button id="logout-btn" class="btn btn-logout">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i> LOGOUT
+      </button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
