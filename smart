@@ -1,381 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>C2S NIT Manipur - Smart Meter System</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C2S NIT Manipur - Smart Meter System</title>
 
-  <link rel="stylesheet" href="style.css" />
-  <!-- Font Awesome & Google Fonts -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <!-- ==================== VIEW 1: LANDING & LOGIN ==================== -->
-  <section id="login-view" class="view-panel active">
-    <header class="login-navbar">
-      <div class="nav-brand">
-        <img src="image/logo.png" alt="C2S Logo" class="nav-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
-        <div class="brand-text">
-          <span class="brand-title">C2S</span>
-          <span class="brand-subtitle">NIT Manipur</span>
-        </div>
-        <div class="divider-vertical"></div>
-        <div class="brand-portal-meta">
-          <h2 class="portal-name">Smart Meter System</h2>
-          <p class="portal-tagline">Smarter Energy <span>|</span> Brighter Future</p>
-        </div>
-      </div>
+  <!-- ==================== VIEW 1: LANDING & LOGIN ==================== -->
+  <section id="login-view" class="view-panel active">
+    <header class="login-navbar">
+      <div class="nav-brand">
+        <img src="image/logo.png" alt="C2S Logo" class="nav-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
+        <div class="brand-text">
+          <span class="brand-title">C2S</span>
+          <span class="brand-subtitle">NIT Manipur</span>
+        </div>
+        <div class="divider-vertical"></div>
+        <div class="brand-portal-meta">
+          <h2 class="portal-name">Smart Meter System</h2>
+          <p class="portal-tagline">Smarter Energy <span>|</span> Brighter Future</p>
+        </div>
+      </div>
 
-      <nav class="nav-links">
-        <a href="#home" id="home-link" class="nav-item"><i class="fa-solid fa-house"></i> Home</a>
-        <a href="#about" class="nav-item">About</a>
-        <a href="#contact" class="nav-item">Contact</a>
-      </nav>
-    </header>
+      <nav class="nav-links">
+        <a href="#home" id="home-link" class="nav-item"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+    </header>
 
-    <main class="hero-section">
-      <div class="hero-container">
-        <div class="hero-left">
-          <div class="hero-brand-block">
-            <h2 class="hero-c2s">C2S</h2>
-            <span class="hero-dept">NIT Manipur</span>
-          </div>
+    <main class="hero-section">
+      <div class="hero-container">
+        <div class="hero-left">
+          <div class="hero-brand-block">
+            <h2 class="hero-c2s">C2S</h2>
+            <span class="hero-dept">NIT Manipur</span>
+          </div>
 
-          <h1 class="hero-title">Smart Meter System</h1>
-          <p class="hero-pillars">
-            Efficient Monitoring &nbsp;|&nbsp; Secure Energy &nbsp;|&nbsp; Sustainable Tomorrow
-          </p>
-          <p class="hero-description">
-            A smart solution for a smarter tomorrow. Our Smart Meter System helps in real-time energy monitoring, accurate billing and better power management.
-          </p>
+          <h1 class="hero-title">Smart Meter System</h1>
+          <p class="hero-pillars">
+            Efficient Monitoring &nbsp;|&nbsp; Secure Energy &nbsp;|&nbsp; Sustainable Tomorrow
+          </p>
+          <p class="hero-description">
+            A smart solution for a smarter tomorrow. Our Smart Meter System helps in real-time energy monitoring, accurate billing and better power management.
+          </p>
 
-          <div class="feature-badges">
-            <div class="feature-card">
-              <div class="icon-circle"><i class="fa-solid fa-chart-column"></i></div>
-              <span>Energy<br>Analytics</span>
-            </div>
-            <div class="feature-card">
-              <div class="icon-circle"><i class="fa-solid fa-gears"></i></div>
-              <span>Remote<br>Management<br>System</span>
-            </div>
-            <div class="feature-card">
-              <div class="icon-circle"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-              <span>Anomaly<br>& Theft<br>Detection</span>
-            </div>
-            <div class="feature-card">
-              <div class="icon-circle"><i class="fa-solid fa-bolt"></i></div>
-              <span>Load<br>Management</span>
-            </div>
-          </div>
-        </div>
+          <div class="feature-badges">
+            <div class="feature-card">
+              <div class="icon-circle"><i class="fa-solid fa-chart-column"></i></div>
+              <span>Energy<br>Analytics</span>
+            </div>
+            <div class="feature-card">
+              <div class="icon-circle"><i class="fa-solid fa-gears"></i></div>
+              <span>Remote<br>Management<br>System</span>
+            </div>
+            <div class="feature-card">
+              <div class="icon-circle"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+              <span>Anomaly<br>& Theft<br>Detection</span>
+            </div>
+            <div class="feature-card">
+              <div class="icon-circle"><i class="fa-solid fa-bolt"></i></div>
+              <span>Load<br>Management</span>
+            </div>
+          </div>
+        </div>
 
-        <div class="hero-right">
-          <div class="login-card">
-            <h2 class="login-heading">Login</h2>
-            <p class="login-subtext">Admin Access</p>
+        <div class="hero-right">
+          <div class="login-card">
+            <h2 class="login-heading">Login</h2>
+            <p class="login-subtext">Admin Access</p>
 
-            <form id="login-form">
-              <div class="input-field-wrapper">
-                <i class="fa-solid fa-id-badge input-icon"></i>
-                <input type="text" id="utilityId" placeholder="Utility Control ID" required autocomplete="off" />
-              </div>
+            <form id="login-form">
+              <div class="input-field-wrapper">
+                <i class="fa-solid fa-id-badge input-icon"></i>
+                <input type="text" id="utilityId" placeholder="Utility Control ID" required autocomplete="off" />
+              </div>
 
-              <div class="input-field-wrapper">
-                <i class="fa-solid fa-lock input-icon"></i>
-                <input type="password" id="password" placeholder="Password" required />
-                <button type="button" id="togglePassword" class="icon-btn" aria-label="Toggle password visibility">
-                  <i class="fa-regular fa-eye" id="eyeIcon"></i>
-                </button>
-              </div>
+              <div class="input-field-wrapper">
+                <i class="fa-solid fa-lock input-icon"></i>
+                <input type="password" id="password" placeholder="Password" required />
+                <button type="button" id="togglePassword" class="icon-btn" aria-label="Toggle password visibility">
+                  <i class="fa-regular fa-eye" id="eyeIcon"></i>
+                </button>
+              </div>
 
-              <button type="submit" class="submit-btn">
-                Login <i class="fa-solid fa-arrow-right"></i>
-              </button>
+              <button type="submit" class="submit-btn">
+                Login <i class="fa-solid fa-arrow-right"></i>
+              </button>
 
-              <div id="login-msg" class="login-message"></div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </main>
+              <div id="login-msg" class="login-message"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
 
-    <footer class="footer-bar">
-      <div class="footer-brand">
-        <img src="image/logo.png" alt="C2S Logo" class="footer-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
-        <div>
-          <strong>C2S</strong>
-          <p>NIT Manipur</p>
-        </div>
-      </div>
-      <div class="footer-quote">
-        Technology for a Sustainable Future
-      </div>
-    </footer>
-  </section>
+    <footer class="footer-bar">
+      <div class="footer-brand">
+        <img src="image/logo.png" alt="C2S Logo" class="footer-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
+        <div>
+          <strong>C2S</strong>
+          <p>NIT Manipur</p>
+        </div>
+      </div>
+      <div class="footer-quote">
+        Technology for a Sustainable Future
+      </div>
+    </footer>
+  </section>
 
-  <!-- ==================== VIEW 2: HOME / DASHBOARD (AFTER LOGIN) ==================== -->
-  <section id="dashboard-view" class="view-panel">
-    <header class="dash-navbar">
-      <div class="dash-brand">
-        <img src="image/logo.png" alt="C2S Logo" class="dash-header-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
-        <div>
-          <h2 class="dash-brand-title">Smart Meter System</h2>
-          <p class="dash-brand-tagline">Smarter Energy &bull; A Greener Tomorrow</p>
-        </div>
-      </div>
+  <!-- ==================== VIEW 2: HOME / DASHBOARD (AFTER LOGIN) ==================== -->
+  <section id="dashboard-view" class="view-panel">
+    <header class="dash-navbar">
+      <div class="dash-brand">
+        <div class="brand-badge-icon">
+          <img src="image/logo.png" alt="C2S Logo" class="nav-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
+        </div>
+        <div>
+          <h2 class="dash-brand-title">Smart Meter System</h2>
+          <p class="dash-brand-tagline">Smarter Energy &bull; A Greener Tomorrow</p>
+        </div>
+      </div>
 
-      <nav class="dash-nav-items">
-        <a href="#" class="dash-link active"><i class="fa-solid fa-house"></i> Dashboard</a>
-        <a href="#" class="dash-link"><i class="fa-solid fa-chart-column"></i> Analytics</a>
-        <a href="#" class="dash-link"><i class="fa-regular fa-file-lines"></i> Reports</a>
-      </nav>
+      <nav class="dash-nav-items">
+        <a href="#" class="dash-link active"><i class="fa-solid fa-house"></i> Dashboard</a>
+        <a href="#" class="dash-link"><i class="fa-solid fa-chart-column"></i> Analytics</a>
+        <a href="#" class="dash-link"><i class="fa-regular fa-file-lines"></i> Reports</a>
+      </nav>
 
-      <div class="user-menu-trigger">
-        <div class="user-avatar-small">
-          <i class="fa-solid fa-user"></i>
-        </div>
-        <span class="user-name-label">Welcome, User</span>
-        <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
-      </div>
-    </header>
+      <div class="user-menu-trigger">
+        <div class="user-avatar-small">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <span class="user-name-label">Welcome, User</span>
+        <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+      </div>
+    </header>
 
-    <main class="dashboard-body">
-      <!-- Top Grid: Utility Profile & Search -->
-      <section class="dash-top-grid">
-        <!-- Utility Profile Card -->
-        <article class="panel-card utility-profile-card">
-          <div class="card-header-bar">
-            <i class="fa-solid fa-user header-icon"></i>
-            <h3>UTILITY PROFILE</h3>
-          </div>
+    <main class="dashboard-body">
+      <!-- Top Grid: Utility Profile & Search -->
+      <section class="dash-top-grid">
+        <!-- Utility Profile Card -->
+        <article class="panel-card utility-profile-card">
+          <div class="card-header-bar">
+            <i class="fa-solid fa-user header-icon"></i>
+            <h3>UTILITY PROFILE</h3>
+          </div>
 
-          <div class="profile-content">
-            <div class="profile-photo-wrapper">
-              <div class="profile-avatar-circle">
-                <i class="fa-solid fa-user"></i>
-              </div>
-              <span class="profile-photo-caption">Profile Photo</span>
-            </div>
+          <div class="profile-content">
+            <div class="profile-photo-wrapper">
+              <div class="profile-avatar-circle">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <span class="profile-photo-caption">Profile Photo</span>
+            </div>
 
-            <div class="profile-details-table">
-              <div class="info-row">
-                <span class="info-label">Name</span>
-                <span class="info-colon">:</span>
-                <span class="info-val">Admin01</span>
-              </div>
-              <div class="info-row">
-                <span class="info-label">UC.ID</span>
-                <span class="info-colon">:</span>
-                <span class="info-val">UC-00123</span>
-              </div>
-              <div class="info-row">
-                <span class="info-label">Designation</span>
-                <span class="info-colon">:</span>
-                <span class="info-val">Assistant Engineer</span>
-              </div>
-              <div class="info-row">
-                <span class="info-label">Service ID</span>
-                <span class="info-colon">:</span>
-                <span class="info-val">SID-4587</span>
-              </div>
-              <div class="info-row">
-                <span class="info-label">Address</span>
-                <span class="info-colon">:</span>
-                <span class="info-val">Imphal, Manipur</span>
-              </div>
-            </div>
-          </div>
-        </article>
+            <div class="profile-details-table">
+              <div class="info-row">
+                <span class="info-label">Name</span>
+                <span class="info-colon">:</span>
+                <span class="info-val">Admin01</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">UC.ID</span>
+                <span class="info-colon">:</span>
+                <span class="info-val">UC-00123</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Designation</span>
+                <span class="info-colon">:</span>
+                <span class="info-val">Assistant Engineer</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Service ID</span>
+                <span class="info-colon">:</span>
+                <span class="info-val">SID-4587</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Address</span>
+                <span class="info-colon">:</span>
+                <span class="info-val">Imphal, Manipur</span>
+              </div>
+            </div>
+          </div>
+        </article>
 
-        <!-- Customer / Meter Search Card -->
-        <article class="panel-card search-card">
-          <div class="card-header-bar">
-            <i class="fa-solid fa-magnifying-glass header-icon"></i>
-            <h3>CUSTOMER / METER SEARCH</h3>
-          </div>
+        <!-- Customer / Meter Search Card -->
+        <article class="panel-card search-card">
+          <div class="card-header-bar">
+            <i class="fa-solid fa-magnifying-glass header-icon"></i>
+            <h3>CUSTOMER / METER SEARCH</h3>
+          </div>
 
-          <form id="search-form" class="search-form-body">
-            <div class="search-input-box">
-              <input type="text" id="search-customer-id" placeholder="CUSTOMER ID (e.g. 12345)" />
-              <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            </div>
+          <form id="search-form" class="search-form-body">
+            <div class="search-input-box">
+              <input type="text" id="search-customer-id" placeholder="CUSTOMER ID (e.g. 12345)" />
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
 
-            <div class="divider-text-or">
-              <span>OR</span>
-            </div>
+            <div class="divider-text-or">
+              <span>OR</span>
+            </div>
 
-            <div class="search-input-box">
-              <input type="text" id="search-meter-no" placeholder="METER NO (e.g. MN123)" />
-              <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            </div>
+            <div class="search-input-box">
+              <input type="text" id="search-meter-no" placeholder="METER NO (e.g. MN123)" />
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
 
-            <button type="submit" class="dash-btn btn-search">
-              <i class="fa-solid fa-magnifying-glass"></i> SEARCH
-            </button>
+            <button type="submit" class="dash-btn btn-search">
+              <i class="fa-solid fa-magnifying-glass"></i> SEARCH
+            </button>
 
-            <button type="button" id="dashboard-logout-btn" class="dash-btn btn-outline-logout">
-              <i class="fa-solid fa-arrow-right-from-bracket"></i> LOGOUT
-            </button>
-          </form>
-        </article>
-      </section>
+            <button type="button" id="dashboard-logout-btn" class="dash-btn btn-outline-logout">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i> LOGOUT
+            </button>
+          </form>
+        </article>
+      </section>
 
-      <!-- Bottom Grid: 4 Action Cards -->
-      <section class="dash-actions-grid">
-        <div class="action-card" onclick="triggerAction('Energy Analytics')">
-          <div class="action-icon-disc disc-blue"><i class="fa-solid fa-chart-line"></i></div>
-          <h4 class="action-card-title">Energy Analytics</h4>
-          <p class="action-card-desc">Monitor consumption, analyze usage patterns and generate insights for better efficiency.</p>
-          <button class="circle-action-btn btn-circle-blue" aria-label="Open Energy Analytics"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
+      <!-- Bottom Grid: 4 Action Cards -->
+      <section class="dash-actions-grid">
+        <div class="action-card" onclick="triggerAction('Energy Analytics')">
+          <div class="action-icon-disc disc-blue"><i class="fa-solid fa-chart-line"></i></div>
+          <h4 class="action-card-title">Energy Analytics</h4>
+          <p class="action-card-desc">Monitor consumption, analyze usage patterns and generate insights for better efficiency.</p>
+          <button class="circle-action-btn btn-circle-blue" aria-label="Open Energy Analytics"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
 
-        <div class="action-card" onclick="triggerAction('Remote & Control')">
-          <div class="action-icon-disc disc-green"><i class="fa-solid fa-mobile-screen-button"></i></div>
-          <h4 class="action-card-title">Remote & Control</h4>
-          <p class="action-card-desc">Access meters remotely, control devices and manage operations in real-time.</p>
-          <button class="circle-action-btn btn-circle-green" aria-label="Open Remote & Control"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
+        <div class="action-card" onclick="triggerAction('Remote & Control')">
+          <div class="action-icon-disc disc-green"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h4 class="action-card-title">Remote & Control</h4>
+          <p class="action-card-desc">Access meters remotely, control devices and manage operations in real-time.</p>
+          <button class="circle-action-btn btn-circle-green" aria-label="Open Remote & Control"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
 
-        <div class="action-card" onclick="triggerAction('Anomaly & Theft Detection')">
-          <div class="action-icon-disc disc-rose"><i class="fa-solid fa-triangle-exclamation"></i></div>
-          <h4 class="action-card-title">Anomaly & Theft Detection</h4>
-          <p class="action-card-desc">Detect unusual patterns, identify faults and prevent energy theft.</p>
-          <button class="circle-action-btn btn-circle-rose" aria-label="Open Anomaly & Theft Detection"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
+        <div class="action-card" onclick="triggerAction('Anomaly & Theft Detection')">
+          <div class="action-icon-disc disc-rose"><i class="fa-solid fa-triangle-exclamation"></i></div>
+          <h4 class="action-card-title">Anomaly & Theft Detection</h4>
+          <p class="action-card-desc">Detect unusual patterns, identify faults and prevent energy theft.</p>
+          <button class="circle-action-btn btn-circle-rose" aria-label="Open Anomaly & Theft Detection"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
 
-        <div class="action-card" onclick="triggerAction('Load Management')">
-          <div class="action-icon-disc disc-purple"><i class="fa-solid fa-bolt-lightning"></i></div>
-          <h4 class="action-card-title">Load Management</h4>
-          <p class="action-card-desc">Balance load, optimize performance and ensure reliable supply.</p>
-          <button class="circle-action-btn btn-circle-purple" aria-label="Open Load Management"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-      </section>
-    </main>
-  </section>
+        <div class="action-card" onclick="triggerAction('Load Management')">
+          <div class="action-icon-disc disc-purple"><i class="fa-solid fa-bolt-lightning"></i></div>
+          <h4 class="action-card-title">Load Management</h4>
+          <p class="action-card-desc">Balance load, optimize performance and ensure reliable supply.</p>
+          <button class="circle-action-btn btn-circle-purple" aria-label="Open Load Management"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </section>
+    </main>
+  </section>
 
-  <!-- ==================== VIEW 3: POP-UP CUSTOMER DASHBOARD MODAL ==================== -->
-  <div id="customer-modal" class="modal-backdrop">
-    <div class="customer-dashboard-modal">
-      <button class="modal-close-btn" id="modal-close">&times;</button>
+  <!-- ==================== VIEW 3: POP-UP CUSTOMER DASHBOARD MODAL ==================== -->
+  <div id="customer-modal" class="modal-backdrop">
+    <div class="customer-dashboard-modal">
+      <button class="modal-close-btn" id="modal-close">&times;</button>
 
-      <div class="modal-inner-layout">
-        <!-- Sidebar -->
-        <aside class="modal-sidebar">
-          <div class="cust-profile-box">
-            <div class="cust-avatar">
-              <i class="fa-solid fa-user"></i>
-            </div>
-            <div class="cust-company-name">
-              XYZ <span class="cust-badge">Pro</span>
-            </div>
-            <div class="cust-user-name" id="cust-modal-name">XYZ</div>
-            <div class="cust-email">xyz.contact@c2senergy.com</div>
-          </div>
+      <div class="modal-inner-layout">
+        <!-- Sidebar -->
+        <aside class="modal-sidebar">
+          <div class="cust-profile-box">
+            <div class="cust-avatar">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="cust-company-name">
+              XYZ <span class="cust-badge">Pro</span>
+            </div>
+            <div class="cust-user-name" id="cust-modal-name">XYZ</div>
+            <div class="cust-email">xyz.contact@c2senergy.com</div>
+          </div>
 
-          <nav class="cust-nav-menu">
-            <div class="menu-heading">Main Menu</div>
-            <a href="#" class="cust-menu-item active"><i class="fa-solid fa-table-cells-large"></i> Dashboard</a>
-            <a href="#" class="cust-menu-item"><i class="fa-solid fa-chart-line"></i> Analytics</a>
-            <a href="#" class="cust-menu-item"><i class="fa-regular fa-building"></i> Buildings</a>
-            <a href="#" class="cust-menu-item"><i class="fa-solid fa-microchip"></i> Devices</a>
-            <a href="#" class="cust-menu-item"><i class="fa-solid fa-triangle-exclamation"></i> Alarm logs <span class="menu-badge">27</span></a>
-            <a href="#" class="cust-menu-item"><i class="fa-regular fa-bell"></i> Notifications <span class="menu-badge">3</span></a>
-          </nav>
-        </aside>
+          <nav class="cust-nav-menu">
+            <div class="menu-heading">Main Menu</div>
+            <a href="#" class="cust-menu-item active"><i class="fa-solid fa-table-cells-large"></i> Dashboard</a>
+            <a href="#" class="cust-menu-item"><i class="fa-solid fa-chart-line"></i> Analytics</a>
+            <a href="#" class="cust-menu-item"><i class="fa-regular fa-building"></i> Buildings</a>
+            <a href="#" class="cust-menu-item"><i class="fa-solid fa-microchip"></i> Devices</a>
+            <a href="#" class="cust-menu-item"><i class="fa-solid fa-triangle-exclamation"></i> Alarm logs <span class="menu-badge">27</span></a>
+            <a href="#" class="cust-menu-item"><i class="fa-regular fa-bell"></i> Notifications <span class="menu-badge">3</span></a>
+          </nav>
+        </aside>
 
-        <!-- Main Body Inside Modal -->
-        <section class="modal-main-content">
-          <div class="modal-top-bar">
-            <div class="modal-title-group">
-              <h2><i class="fa-solid fa-gauge-high"></i> Dashboard</h2>
-              <span class="modal-subtitle">Real-time monitoring electric parameters</span>
-            </div>
-            <div class="modal-filters">
-              <button class="filter-btn">PAC3100 Meter <i class="fa-solid fa-chevron-down"></i></button>
-              <button class="filter-btn">Hour <i class="fa-solid fa-chevron-down"></i></button>
-              <button class="filter-btn"><i class="fa-regular fa-calendar"></i> Today</button>
-              <button class="filter-btn btn-add-widget"><i class="fa-solid fa-plus"></i> Add widget</button>
-            </div>
-          </div>
+        <!-- Main Body Inside Modal -->
+        <section class="modal-main-content">
+          <div class="modal-top-bar">
+            <div class="modal-title-group">
+              <h2><i class="fa-solid fa-gauge-high"></i> Dashboard</h2>
+              <span class="modal-subtitle">Real-time monitoring electric parameters</span>
+            </div>
+            <div class="modal-filters">
+              <button class="filter-btn">PAC3100 Meter <i class="fa-solid fa-chevron-down"></i></button>
+              <button class="filter-btn">Hour <i class="fa-solid fa-chevron-down"></i></button>
+              <button class="filter-btn"><i class="fa-regular fa-calendar"></i> Today</button>
+              <button class="filter-btn btn-add-widget"><i class="fa-solid fa-plus"></i> Add widget</button>
+            </div>
+          </div>
 
-          <!-- 3 Stat Cards (Total Power, Power Meters, Total Voltage) -->
-          <div class="modal-stat-cards">
-            <!-- Total Power -->
-            <div class="stat-card-white">
-              <div class="card-top-title">Total power</div>
-              <div class="stat-flex-row">
-                <div class="stat-lines-list">
-                  <div>Line 1: <strong>240 W</strong></div>
-                  <div>Line 2: <strong>90 W</strong></div>
-                  <div>Line 3: <strong>120 W</strong></div>
-                </div>
-                <div class="circular-gauge">
-                  <span class="gauge-val">450<sub class="unit-sub">W</sub></span>
-                </div>
-              </div>
-            </div>
+          <!-- 3 Stat Cards (Total Power, Power Meters, Total Voltage) -->
+          <div class="modal-stat-cards">
+            <!-- Total Power -->
+            <div class="stat-card-white">
+              <div class="card-top-title">Total power</div>
+              <div class="stat-flex-row">
+                <div class="stat-lines-list">
+                  <div>Line 1: <strong>240 W</strong></div>
+                  <div>Line 2: <strong>90 W</strong></div>
+                  <div>Line 3: <strong>120 W</strong></div>
+                </div>
+                <div class="circular-gauge">
+                  <span class="gauge-val">450<sub class="unit-sub">W</sub></span>
+                </div>
+              </div>
+            </div>
 
-            <!-- Power Meters -->
-            <div class="stat-card-white">
-              <div class="card-top-title">Power meters</div>
-              <div class="meters-summary">
-                <div class="meters-label">Total energy consumption</div>
-                <div class="meters-val">18,00 <span>kWh</span></div>
-                <div class="gauge-pill-status">Good &bull; Signal strength</div>
-              </div>
-            </div>
+            <!-- Power Meters -->
+            <div class="stat-card-white">
+              <div class="card-top-title">Power meters</div>
+              <div class="meters-summary">
+                <div class="meters-label">Total energy consumption</div>
+                <div class="meters-val">18,00 <span>kWh</span></div>
+                <div class="gauge-pill-status">Good &bull; Signal strength</div>
+              </div>
+            </div>
 
-            <!-- Total Voltage -->
-            <div class="stat-card-white">
-              <div class="card-top-title">Total voltage</div>
-              <div class="stat-flex-row">
-                <div class="stat-lines-list">
-                  <div>Line 1: <strong>223 V</strong></div>
-                  <div>Line 2: <strong>228 V</strong></div>
-                  <div>Line 3: <strong>221 V</strong></div>
-                </div>
-                <div class="circular-gauge">
-                  <span class="gauge-val">3,5<sub class="unit-sub">A</sub></span>
-                </div>
-              </div>
-            </div>
-          </div>
+            <!-- Total Voltage -->
+            <div class="stat-card-white">
+              <div class="card-top-title">Total voltage</div>
+              <div class="stat-flex-row">
+                <div class="stat-lines-list">
+                  <div>Line 1: <strong>223 V</strong></div>
+                  <div>Line 2: <strong>228 V</strong></div>
+                  <div>Line 3: <strong>221 V</strong></div>
+                </div>
+                <div class="circular-gauge">
+                  <span class="gauge-val">3,5<sub class="unit-sub">A</sub></span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <!-- Hourly Energy Consumption Chart Area -->
-          <div class="chart-container-card">
-            <div class="chart-header">
-              <h4>Hourly energy consumption</h4>
-              <div class="chart-legends">
-                <span><span class="legend-bullet bullet-blue"></span> Active power</span>
-                <span><span class="legend-bullet bullet-light"></span> Reactive power</span>
-              </div>
-            </div>
+          <!-- Hourly Energy Consumption Chart Area -->
+          <div class="chart-container-card">
+            <div class="chart-header">
+              <h4>Hourly energy consumption</h4>
+              <div class="chart-legends">
+                <span><span class="legend-bullet bullet-blue"></span> Active power</span>
+                <span><span class="legend-bullet bullet-light"></span> Reactive power</span>
+              </div>
+            </div>
 
-            <div class="chart-graphic">
-              <svg viewBox="0 0 500 120" preserveAspectRatio="none">
-                <path d="M0,80 Q70,95 130,50 T260,85 T390,30 T500,60" fill="none" stroke="#0284c7" stroke-width="3" />
-                <path d="M0,90 Q90,65 180,95 T360,70 T500,85" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4" />
-                <circle cx="260" cy="85" r="4" fill="#0284c7" />
-              </svg>
-            </div>
+            <div class="chart-graphic">
+              <svg viewBox="0 0 500 120" preserveAspectRatio="none">
+                <path d="M0,80 Q70,95 130,50 T260,85 T390,30 T500,60" fill="none" stroke="#0284c7" stroke-width="3" />
+                <path d="M0,90 Q90,65 180,95 T360,70 T500,85" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4" />
+                <circle cx="260" cy="85" r="4" fill="#0284c7" />
+              </svg>
+            </div>
 
-            <div class="chart-timeline-labels">
-              <span>10:00 AM</span>
-              <span>11:00 AM</span>
-              <span>12:00 PM</span>
-              <span>01:00 PM</span>
-              <span>02:00 PM</span>
-              <span>03:00 PM</span>
-              <span>04:00 PM</span>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
+            <div class="chart-timeline-labels">
+              <span>10:00 AM</span>
+              <span>11:00 AM</span>
+              <span>12:00 PM</span>
+              <span>01:00 PM</span>
+              <span>02:00 PM</span>
+              <span>03:00 PM</span>
+              <span>04:00 PM</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
 
-  <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
