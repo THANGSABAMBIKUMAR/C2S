@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>C2S NIT Manipur - Smart Meter System</title>
-  
+
   <link rel="stylesheet" href="style.css" />
   <!-- Font Awesome & Google Fonts -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -119,9 +119,7 @@
   <section id="dashboard-view" class="view-panel">
     <header class="dash-navbar">
       <div class="dash-brand">
-        <div class="brand-badge-icon">
-          <img src="image/logo.png" alt="C2S Logo" class="nav-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
-        </div>
+        <img src="image/logo.png" alt="C2S Logo" class="dash-header-logo" onerror="this.src='image/logo.png'; this.onerror=null;" />
         <div>
           <h2 class="dash-brand-title">Smart Meter System</h2>
           <p class="dash-brand-tagline">Smarter Energy &bull; A Greener Tomorrow</p>
@@ -261,7 +259,7 @@
   <div id="customer-modal" class="modal-backdrop">
     <div class="customer-dashboard-modal">
       <button class="modal-close-btn" id="modal-close">&times;</button>
-      
+
       <div class="modal-inner-layout">
         <!-- Sidebar -->
         <aside class="modal-sidebar">
@@ -362,7 +360,7 @@
                 <circle cx="260" cy="85" r="4" fill="#0284c7" />
               </svg>
             </div>
-            
+
             <div class="chart-timeline-labels">
               <span>10:00 AM</span>
               <span>11:00 AM</span>
